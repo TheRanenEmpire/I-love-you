@@ -1,31 +1,282 @@
-body{
-    padding: 1em;
-    background-color:#F4EBE1;
-    background-attachment:local;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: clamp(0.75rem, 2vw, 1.5rem);
+    background-color: #F4EBE1;
+    background-attachment: local;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    color: #2B2625;
 }
-h1{
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+nav {
+    margin: 1em auto 3em auto;
+    width: min(1000px, 100%);
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: normal;
+    list-style-type: none;
+    gap: 1em;
+    font-size: clamp(1.25rem, 3vw, 2.5rem);
+    justify-content: right;
+    color: #2B2625;
+    word-spacing: 0.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
     font-family: "EB Garamond", serif;
-    font-size: 6rem;
-    font-weight: 900;
-    color: #8f0f0f;
+    font-weight: 500;
 }
-p{
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    color: #8f0f0f;
+    font-style: oblique;
+    font-weight: 800;
+    font-family: "EB Garamond", serif;
+    font-size: clamp(2.5rem, 8vw, 5.5rem);
+}
+
+p {
     font-family: "EB Garamond", serif;
     font-optical-sizing: auto;
-    font-weight: 700;
-    font-size: 20pt;
+    font-weight: 400;
+    font-size: clamp(1.125rem, 2.2vw, 2rem);
     font-style: normal;
-    color: #2B2625;
+    color: #8f0f0f;
     gap: 5pt;
 }
 
-img{
-    width: 100vw;
-    height: 200vh;
-    object-fit: contain;
-    display: block;
+p2 {
+    color: #8f0f0f;
+    font-family: "EB Garamond", serif;
+    font-size: clamp(1.125rem, 2.2vw, 2rem);
+    font-weight: 400;
+    gap: 5pt;
+}
 
+header, section {
+    margin: 2em auto;
+    width: min(75em, 100%);
+    padding: min(2em, 15%);
+    border-radius: 1em;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3em;
+}
+
+header img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 1em;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.text-container {
+    flex: 0 1 34em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-container p {
+    margin-top: 1em;
+}
+
+.text-container p2 {
+    margin-bottom: 1em;
+}
+
+a:hover {
+    text-decoration: solid;
+}
+
+.cta-button {
+    font-family: "EB Garamond", serif;
+    font-size: 15pt;
+    display: inline-block;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #8f0f0f;
+    padding: 1em 1.5em;
+    border-radius: 1em;
+    font-weight: 400;
+}
+
+section {
+    padding: clamp(1.5rem, 4vw, 3rem) min(2em, 15%);
+    background-color: rgba(165, 153, 153, 0.459);
+    color: #2B2625;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    font-size: clamp(1.8rem, 5vw, 2.5rem);
+}
+
+section p3 {
+    margin-top: 1em;
+    font-size: clamp(1.1rem, 2.5vw, 1.85rem);
+}
+
+section#us {
+    background-color: aliceblue;
+}
+
+h3 {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-size: clamp(1.25rem, 3vw, 2rem);
+    color: #8f0f0f;
+}
+
+.grid-container {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "img-1 img-1 img-2"
+    "img-1 img-1 img-3"
+    "img-5 img-5 img-4"
+    "img-5 img-5 img-6"
+    "img-9 img-9 img-7"
+    "img-9 img-9 img-8"
+    "img-12 img-12 img-10"
+    "img-12 img-12 img-11"
+    "img-16 img-16 img-13"
+    "img-16 img-16 img-14"
+    "img-17 img-17 img-15"
+    "img-17 img-17 img-19"
+    "img-18 img-18 img-20"
+    "img-18 img-18 img-21"
+    "img-22 img-22 img-23"
+    "img-22 img-22 img-24"
+    "img-25 img-25 img-26"
+    "img-25 img-25 img-27"
+    "img-28 img-28 img-29"
+    "img-28 img-28 img-30"
+    "img-31 img-31 img-32"
+    "img-31 img-31 img-33"
+    "img-34 img-34 img-34";
+    gap: 1em;
+}
+
+.grid-container img {
+    height: 100%;
+    width: 100%;
+    border-radius: 0.5em;
+    transition: 100ms ease;
+    object-fit: cover;
+}
+
+.grid-container img:hover {
+    transform: scale(1.05);
+}
+
+details {
+    margin-top: 1em;
+    background-color: rgba(255, 255, 255, 0.322);
+    border-radius: 1em;
+}
+
+details summary {
+    padding: 1em;
+    font-size: clamp(1.1rem, 2vw, 1.5rem);
+}
+
+details p4 {
+    padding: 0 2em 2em 2em;
+    color: #2B2625;
+}
+
+#section2 {
+    font-family: "EB Garamond", serif;
+    color: #8f0f0f;
+}
+
+@media (max-width: 900px) {
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .text-container {
+        flex-basis: 100%;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 720px) {
+    body {
+        padding: 0.75rem;
+    }
+
+    header, section {
+        padding: 1rem;
+    }
+
+    .grid-container {
+        display: block;
+    }
+
+    .grid-container img {
+        margin-bottom: 1rem;
+    }
+
+    .cta-button {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul {
+        gap: 0.5rem 1rem;
+        justify-content: center;
+    }
+
+    section {
+        font-size: 1.2em;
+    }
 }

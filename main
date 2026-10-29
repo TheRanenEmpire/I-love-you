@@ -1,0 +1,48 @@
+body {
+    padding: clamp(0.75rem, 2vw, 1.5rem);
+    background-color: #F4EBE1;
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+
+h1 {
+    font-family: "EB Garamond", serif;
+    font-size: clamp(2.25rem, 7vw, 6rem);
+    font-weight: 900;
+    color: #8f0f0f;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: clamp(1.05rem, 2.2vw, 2rem);
+    font-style: normal;
+    color: #2B2625;
+    gap: 5pt;
+    line-height: 1.6;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 1.5rem auto;
+}
+
+@media (max-width: 720px) {
+    body {
+        padding: 0.75rem;
+    }
+
+    p {
+        font-size: clamp(1rem, 4vw, 1.4rem);
+    }
+}
