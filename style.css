@@ -220,3 +220,35 @@ details p4{
     font-family: "EB Garamond", serif;
     color: #8f0f0f;
 }
+audio{ display: block; width: min(100%, 25rem); margin: 0 auto; }
+header img, section img{ max-width: 100%; height: auto; }
+#Us, #Us *{ scroll-margin-top: 1em; }
+.grid-container a{ display: block; }
+.grid-container img{ object-fit: cover; }
+
+@media (max-width: 900px){
+    h1{ font-size: clamp(2.5rem, 8vw, 4.5rem); }
+    p, p2, h3{ font-size: clamp(1.2rem, 3vw, 1.6rem); }
+    h2{ font-size: clamp(1.8rem, 5vw, 2.5rem); }
+    section{ font-size: 1.2em; }
+    section p3{ font-size: clamp(1.15rem, 3vw, 1.6rem); }
+    .flex-container{ gap: 2em; }
+}
+
+@media (max-width: 600px){
+    body{ padding: 0.5em; }
+    header, section{ padding: 1.5em 1em; margin: 1em auto; }
+    .text-container{ flex-basis: 100%; text-align: center; }
+    .grid-container{
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: none;
+        grid-template-rows: none;
+        grid-auto-rows: 45vw;
+        gap: 0.5em;
+    }
+    .grid-container a{ grid-area: auto !important; }
+    .grid-container img:hover{ scale: 1; }
+    .cta-button{ font-size: 1.1rem; padding: 0.9em 1.2em; }
+    details summary{ font-size: 1.15rem; }
+    details p4{ display: block; padding: 0 1em 1em; }
+}
