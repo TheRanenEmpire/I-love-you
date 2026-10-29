@@ -1,0 +1,31 @@
+body{
+    padding: 1em;
+    background-color:#F4EBE1;
+    background-attachment:local;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    font-family: "EB Garamond", serif;
+    font-size: 6rem;
+    font-weight: 900;
+    color: #8f0f0f;
+}
+p{
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 20pt;
+    font-style: normal;
+    color: #2B2625;
+    gap: 5pt;
+}
+
+img{
+    width: 100vw;
+    height: 200vh;
+    object-fit: contain;
+    display: block;
+
+}

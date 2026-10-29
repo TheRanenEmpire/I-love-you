@@ -1,0 +1,43 @@
+html, body {
+  background-color: #EA3829;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #EA3829;
+}
+
+
+
+#Layer_1 {
+  opacity: 0;
+  animation: fadeIn 1.2s ease-out forwards;
+}
+@keyframes fadeIn {
+  to { opacity: 1; }
+}
+
+#Layer_1 path:not([fill="#EA3829"]):not([fill="#060201"]):not([fill="#080201"]):not([fill="#BE9F87"]):not([fill="#5D453B"]):not([fill="#5C493D"]):not([fill="#564339"]):not([fill="#533A33"]):not([fill="#4D4037"]):not([fill="#BA9C84"]):not([id="colon"]):not([fill="#55493E"]):not([fill="#F3E9DA"]):not([fill="#8E6A58"]):not([fill="#897C70"]):not([fill="#BCAEA2"]):not([fill="#E85548"]):not([fill="#EBE1D3"]):not([fill="#8F6B58"]):not([fill="#DDC7B8"]):not([fill="#E0CABD"]):not([fill="#D55F55"]):not([fill="#F17E75"]):not([fill="#AF5049"]):not([fill="#BC9D86"]):not([fill="#7B6C62"]):not([fill="#AA4941"]):not([fill="#E53728"]):not([fill="#564339"]):not([fill="#796050"]){
+  transform-box: view-box;
+  transform-origin: 530px 760px;
+  animation: pulse 1.2s ease-in-out 1.2s infinite;
+}
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  15%      { transform: scale(1.06); }
+  30%      { transform: scale(1); }
+  45%      { transform: scale(1.04); }
+  60%      { transform: scale(1); }
+}
+
+#Layer_1 {
+    height: 100vh;
+  height: 100dvh;
+  width: auto;
+  max-width: 100vw;
+}
