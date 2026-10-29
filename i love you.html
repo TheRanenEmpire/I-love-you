@@ -1,116 +1,284 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>I Love You</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
-    <audio controls autoplay loop>
-        <source src="buddy castle - you're my honey bunch (lyrics).mp3" type="audio/mpeg">
-    </audio>
-</head>
-<body>
-    <div class="flex-container">
-        <img height="550px" width="410px" src="i-love-you-3.jpg">
-        <div class="text-container">
-            <h1>HAPPY ONE YEAR ANNIVERSARY!</h1>
-            <p>Thank you for every laugh, smile and kiss that you've given to me</p>
-            <p2>I love you cutie and I appreciate you my lub dub💖</p2>
-            <br>
-            <br>
-            <br>
-            <a href="#Us" class="cta-button">Here's to Our Moments Together</a>
-        </div>
-    </div>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    <section>
-        <div class="flex-container">
-            <div class="text-container">
-                <h2>Why I Love You The Mostest</h2>
-                <p3>You're the most special person in the whole wide world.
-                    <br>
-                    You're my honeybunch, sugarplum
-                    Pumpy-umpy-umpkin <br>
-                    You're my sweetie pie <br>
-                    You're my cuppycake
-                    Gumdrop, shnoekums-shnoekums
-                    You're the apple of my eye <br>
-                    And I love you so and I want you to know
-                    That I'll always be right here <br>
-                    And I love to sing sweet songs to you
-                    Because you are so dear <br>
-                    ❤❤❤
-                </p3>
-            </div>
-            <img width="300px" height="100%" src="gorgeous.jpg">
-        </div>
-    </section>
+html {
+    scroll-behavior: smooth;
+}
 
-    <section id="Us">
-        <h3>Our Memories so far</h3>
+body {
+    margin: 0;
+    padding: clamp(0.75rem, 2vw, 1.5rem);
+    background-color: #F4EBE1;
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #2B2625;
+}
 
-        <div class="grid-container">
-            <a href="my birthday.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-1;"><img src="birthday.jpg"></a>
-            <a href="nikhil's birthday.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-2;"><img src="nik bday.jpg"></a>
-            <a href="halloween.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-3;"><img src="halloween.jpg"></a>
-            <a href="becoming official.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-4;"><img src="number 1.jpg"></a>
-            <a href="my favourite.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-5;"><img src="favourite.jpg"></a>
-            <a href="leaving for thailand.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-6;"><img src="img-20251104-wa0003.jpg"></a>
-            <a href="birth of the rhino.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-7;"><img src="rhino.jpg"></a>
-            <a href="kawaii.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-8;"><img src="cute.jpg"></a>
-            <a href="deepbrew.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-9;"><img src="deepbrew.jpg"></a>
-            <a href="cuddles.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-10;"><img src="locket_1771655521511_9.jpg"></a>
-            <a href="adorbs.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-11;"><img src="locket_1771071488013_91.jpg"></a>
-            <a href="sneaky.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-12;"><img src="sneaky.jpg"></a>
-            <a href="eyes.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-13;"><img src="eyes.jpg"></a>
-            <a href="asleep.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-14;"><img src="asleep.jpg"></a>
-            <a href="a kiss on the cheek.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-15;"><img src="locket pic.jpg"></a>
-            <a href="vegan market.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-16;"><img src="vegan market good.jpg"></a>
-            <a href="kita.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-17;"><img src="kita day.jpg"></a>
-            <a href="nightmare.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-18;"><img src="nightmare.jpg"></a>
-            <a href="tantrum.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-19;"><img src="tantrum.jpg"></a>
-            <a href="cutie.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-20;"><img src="cutie.jpg"></a>
-            <a href="scrubs.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-21;"><img src="scrubs.jpg"></a>
-            <a href="cat.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-22;"><img src="cat v2.jpg"></a>
-            <a href="mirror.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-23;"><img src="mirror.jpg"></a>
-            <a href="cutest.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-24;"><img src="the actual cutest.jpg"></a>
-            <a href="deadpan.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-25;"><img src="deadpan.jpg"></a>
-            <a href="weekend pt 1.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-26;"><img src="izakaya.jpg"></a>
-            <a href="weekend pt 2.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-27;"><img src="img-20260617-wa0019.jpg"></a>
-            <a href="leedle.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-28;"><img src="leedle.jpg"></a>
-            <a href="sweater.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-29;"><img src="sweater.jpg"></a>
-            <a href="caught.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-30;"><img src="caught.jpg"></a>
-            <a href="6 months.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-31;"><img src="6 months.jpg"></a>
-            <a href="my whole heart.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-32;"><img src="locket_1792417677806_71.jpg"></a>
-            <a href="kragga kamma.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-33;"><img src="img-20261018-wa0005.jpg"></a>
-            <a href="kalas.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-34;"><img src="kalas.jpg"></a>
-        </div>
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
 
-        <a href="i%20love%20you.mp4" class="cta-button">I love You</a>
-    </section>
+nav {
+    margin: 1em auto 3em auto;
+    width: min(1000px, 100%);
+}
 
-    <section id="section2">
-        <h3>Common Quesions</h3>
-        <details>
-            <summary>How do I feel knowing that you guessed this already</summary>
-            <p4>Honestly, I was kinda mad, but I couldn't stay mad at you. Seeing you smile so brightly right after you said it made everything good again!
-                <br>I love you dearly. </p4>
-        </details>
-        <details>
-            <summary>How much do I love you?</summary>
-            <p4>I love you so much it doesn't even make sense to me. You're everything that I've ever needed and I'm so lucky to call you mine.
-                <br>I love every second of every of every minute of every hours of every day that I spend with you!
-            </p4>
-        </details>
-        <details>
-            <summary>Why do I love you so much?</summary>
-            <p4>Because you're so purty😁
-                <br>You're also the kindest, most caring, most thoughtful, most selfless, most hard-working and all around the most amazing person that I'm proud to be in love with!
-            </p4>
-        </details>
-    </section>
-</body>
-</html>
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: normal;
+    list-style-type: none;
+    gap: 1em;
+    font-size: clamp(1.25rem, 3vw, 2.5rem);
+    justify-content: right;
+    color: #2B2625;
+    word-spacing: 0.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-family: "EB Garamond", serif;
+    font-weight: 500;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    color: #8f0f0f;
+    font-style: oblique;
+    font-weight: 800;
+    font-family: "EB Garamond", serif;
+    font-size: clamp(2.25rem, 7vw, 5.5rem);
+    line-height: 1.08;
+}
+
+p {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: clamp(1.125rem, 2.2vw, 2rem);
+    font-style: normal;
+    color: #8f0f0f;
+    gap: 5pt;
+}
+
+p2 {
+    color: #8f0f0f;
+    font-family: "EB Garamond", serif;
+    font-size: clamp(1.125rem, 2.2vw, 2rem);
+    font-weight: 400;
+    gap: 5pt;
+}
+
+header, section {
+    margin: 2em auto;
+    width: min(75em, 100%);
+    padding: min(2em, 15%);
+    border-radius: 1em;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3em;
+}
+
+.hero-image {
+    width: min(100%, 410px);
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.story-image {
+    width: min(100%, 300px);
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+}
+
+.text-container {
+    flex: 0 1 34em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-container p {
+    margin-top: 1em;
+}
+
+.text-container p2 {
+    margin-bottom: 1em;
+}
+
+a:hover {
+    text-decoration: solid;
+}
+
+.cta-button {
+    font-family: "EB Garamond", serif;
+    font-size: clamp(1rem, 2.2vw, 1.3rem);
+    display: inline-block;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #8f0f0f;
+    padding: 1em 1.5em;
+    border-radius: 1em;
+    font-weight: 400;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.cta-button:hover {
+    transform: translateY(-1px);
+    opacity: 0.96;
+}
+
+section {
+    padding: clamp(1.5rem, 4vw, 3rem) min(2em, 15%);
+    background-color: rgba(165, 153, 153, 0.459);
+    color: #2B2625;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    font-size: clamp(1.8rem, 5vw, 2.5rem);
+    line-height: 1.1;
+}
+
+section p3 {
+    margin-top: 1em;
+    font-size: clamp(1.1rem, 2.5vw, 1.85rem);
+    display: block;
+    line-height: 1.6;
+}
+
+section#us {
+    background-color: aliceblue;
+}
+
+h3 {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-size: clamp(1.4rem, 3vw, 2rem);
+    color: #8f0f0f;
+}
+
+.grid-container {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1em;
+}
+
+.grid-container a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.grid-container img {
+    height: 100%;
+    width: 100%;
+    min-height: 160px;
+    border-radius: 0.5em;
+    transition: 100ms ease;
+    object-fit: cover;
+}
+
+.grid-container img:hover {
+    transform: scale(1.05);
+}
+
+details {
+    margin-top: 1em;
+    background-color: rgba(255, 255, 255, 0.322);
+    border-radius: 1em;
+}
+
+details summary {
+    padding: 1em;
+    font-size: clamp(1.1rem, 2vw, 1.5rem);
+    cursor: pointer;
+}
+
+details p4 {
+    padding: 0 2em 2em 2em;
+    color: #2B2625;
+    display: block;
+    line-height: 1.6;
+}
+
+#section2 {
+    font-family: "EB Garamond", serif;
+    color: #8f0f0f;
+}
+
+@media (max-width: 900px) {
+    .flex-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text-container {
+        flex-basis: 100%;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 720px) {
+    body {
+        padding: 0.75rem;
+    }
+
+    header, section {
+        padding: 1rem;
+    }
+
+    .cta-button {
+        width: 100%;
+        text-align: center;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-container img {
+        min-height: 220px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul {
+        gap: 0.5rem 1rem;
+        justify-content: center;
+    }
+
+    section {
+        font-size: 1.2em;
+    }
+}

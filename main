@@ -1,48 +1,116 @@
-body {
-    padding: clamp(0.75rem, 2vw, 1.5rem);
-    background-color: #F4EBE1;
-    background-attachment: local;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin: 0;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Love You</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <audio controls autoplay loop>
+        <source src="buddy castle - you're my honey bunch (lyrics).mp3" type="audio/mpeg">
+    </audio>
+</head>
+<body>
+    <div class="flex-container">
+        <img class="hero-image" src="i-love-you-3.jpg" alt="A romantic anniversary photo">
+        <div class="text-container">
+            <h1>HAPPY ONE YEAR ANNIVERSARY!</h1>
+            <p>Thank you for every laugh, smile and kiss that you've given to me</p>
+            <p2>I love you cutie and I appreciate you my lub dub💖</p2>
+            <br>
+            <br>
+            <br>
+            <a href="#Us" class="cta-button">Here's to Our Moments Together</a>
+        </div>
+    </div>
 
-h1 {
-    font-family: "EB Garamond", serif;
-    font-size: clamp(2.25rem, 7vw, 6rem);
-    font-weight: 900;
-    color: #8f0f0f;
-    line-height: 1.1;
-    margin-bottom: 1rem;
-}
+    <section>
+        <div class="flex-container">
+            <div class="text-container">
+                <h2>Why I Love You The Mostest</h2>
+                <p3>You're the most special person in the whole wide world.
+                    <br>
+                    You're my honeybunch, sugarplum
+                    Pumpy-umpy-umpkin <br>
+                    You're my sweetie pie <br>
+                    You're my cuppycake
+                    Gumdrop, shnoekums-shnoekums
+                    You're the apple of my eye <br>
+                    And I love you so and I want you to know
+                    That I'll always be right here <br>
+                    And I love to sing sweet songs to you
+                    Because you are so dear <br>
+                    ❤❤❤
+                </p3>
+            </div>
+            <img class="story-image" src="gorgeous.jpg" alt="A photo of us together">
+        </div>
+    </section>
 
-p {
-    font-family: "EB Garamond", serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-size: clamp(1.05rem, 2.2vw, 2rem);
-    font-style: normal;
-    color: #2B2625;
-    gap: 5pt;
-    line-height: 1.6;
-}
+    <section id="Us">
+        <h3>Our Memories so far</h3>
 
-img {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    object-fit: contain;
-    display: block;
-    margin: 0 auto 1.5rem auto;
-}
+        <div class="grid-container">
+            <a href="my birthday.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-1;"><img src="birthday.jpg" alt="My birthday memory"></a>
+            <a href="nikhil's birthday.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-2;"><img src="nik bday.jpg" alt="Nikhil birthday memory"></a>
+            <a href="halloween.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-3;"><img src="halloween.jpg" alt="Halloween memory"></a>
+            <a href="becoming official.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-4;"><img src="number 1.jpg" alt="Becoming official memory"></a>
+            <a href="my favourite.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-5;"><img src="favourite.jpg" alt="Favourite memory"></a>
+            <a href="leaving for thailand.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-6;"><img src="img-20251104-wa0003.jpg" alt="Leaving for Thailand memory"></a>
+            <a href="birth of the rhino.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-7;"><img src="rhino.jpg" alt="Birth of the Rhino memory"></a>
+            <a href="kawaii.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-8;"><img src="cute.jpg" alt="Kawaii memory"></a>
+            <a href="deepbrew.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-9;"><img src="deepbrew.jpg" alt="Deepbrew memory"></a>
+            <a href="cuddles.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-10;"><img src="locket_1771655521511_9.jpg" alt="Cuddles memory"></a>
+            <a href="adorbs.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-11;"><img src="locket_1771071488013_91.jpg" alt="Adorbs memory"></a>
+            <a href="sneaky.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-12;"><img src="sneaky.jpg" alt="Sneaky memory"></a>
+            <a href="eyes.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-13;"><img src="eyes.jpg" alt="Eyes memory"></a>
+            <a href="asleep.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-14;"><img src="asleep.jpg" alt="Asleep memory"></a>
+            <a href="a kiss on the cheek.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-15;"><img src="locket pic.jpg" alt="A kiss on the cheek memory"></a>
+            <a href="vegan market.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-16;"><img src="vegan market good.jpg" alt="Vegan market memory"></a>
+            <a href="kita.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-17;"><img src="kita day.jpg" alt="Kita memory"></a>
+            <a href="nightmare.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-18;"><img src="nightmare.jpg" alt="Nightmare memory"></a>
+            <a href="tantrum.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-19;"><img src="tantrum.jpg" alt="Tantrum memory"></a>
+            <a href="cutie.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-20;"><img src="cutie.jpg" alt="Cutie memory"></a>
+            <a href="scrubs.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-21;"><img src="scrubs.jpg" alt="Scrubs memory"></a>
+            <a href="cat.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-22;"><img src="cat v2.jpg" alt="Cat memory"></a>
+            <a href="mirror.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-23;"><img src="mirror.jpg" alt="Mirror memory"></a>
+            <a href="cutest.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-24;"><img src="the actual cutest.jpg" alt="Cutest memory"></a>
+            <a href="deadpan.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-25;"><img src="deadpan.jpg" alt="Deadpan memory"></a>
+            <a href="weekend pt 1.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-26;"><img src="izakaya.jpg" alt="Weekend Part 1 memory"></a>
+            <a href="weekend pt 2.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-27;"><img src="img-20260617-wa0019.jpg" alt="Weekend Part 2 memory"></a>
+            <a href="leedle.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-28;"><img src="leedle.jpg" alt="Leedle memory"></a>
+            <a href="sweater.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-29;"><img src="sweater.jpg" alt="Sweater memory"></a>
+            <a href="caught.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-30;"><img src="caught.jpg" alt="Caught memory"></a>
+            <a href="6 months.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-31;"><img src="6 months.jpg" alt="Six months memory"></a>
+            <a href="my whole heart.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-32;"><img src="locket_1792417677806_71.jpg" alt="My whole heart memory"></a>
+            <a href="kragga kamma.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-33;"><img src="img-20261018-wa0005.jpg" alt="Kragga Kamma memory"></a>
+            <a href="kalas.html" target="_blank" rel="noopener noreferrer" style="grid-area: img-34;"><img src="kalas.jpg" alt="Kalas memory"></a>
+        </div>
 
-@media (max-width: 720px) {
-    body {
-        padding: 0.75rem;
-    }
+        <a href="i%20love%20you.mp4" class="cta-button">I love You</a>
+    </section>
 
-    p {
-        font-size: clamp(1rem, 4vw, 1.4rem);
-    }
-}
+    <section id="section2">
+        <h3>Common Quesions</h3>
+        <details>
+            <summary>How do I feel knowing that you guessed this already</summary>
+            <p4>Honestly, I was kinda mad, but I couldn't stay mad at you. Seeing you smile so brightly right after you said it made everything good again!
+                <br>I love you dearly. </p4>
+        </details>
+        <details>
+            <summary>How much do I love you?</summary>
+            <p4>I love you so much it doesn't even make sense to me. You're everything that I've ever needed and I'm so lucky to call you mine.
+                <br>I love every second of every of every minute of every hours of every day that I spend with you!
+            </p4>
+        </details>
+        <details>
+            <summary>Why do I love you so much?</summary>
+            <p4>Because you're so purty😁
+                <br>You're also the kindest, most caring, most thoughtful, most selfless, most hard-working and all around the most amazing person that I'm proud to be in love with!
+            </p4>
+        </details>
+    </section>
+</body>
+</html>
